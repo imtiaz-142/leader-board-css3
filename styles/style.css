@@ -7,12 +7,15 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .container {
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
 }
 hr{
     border: 1px solid #D1D1D1;
@@ -73,3 +76,22 @@ hr{
     font-size: 16px;
 }
 
+/* courses styles */
+
+.course .course-banner img{
+    width: 266px;
+    height: 141px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
